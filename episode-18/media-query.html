@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            background: red;
+        }
+        @media(max-width: 768px) {
+            body {
+                background: blue;
+            }
+
+        }
+        @media(max-width: 508px) {
+            body {
+                background: green;
+            }
+
+        } */
+        /* p {
+            display: none;
+        }
+        @media(min-width : 760px) {
+            p {
+                display: block;
+            }
+        } */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contanier {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+            border: 1px solid black;
+            background: #a7a7a7;
+            padding: 10px;
+            width: 25%;
+        }
+        @media (max-width : 768px
+        ) {
+            .box{
+                width: 50%;
+            }
+        }
+        @media (max-width : 500px
+        ) {
+            .box{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+     <div class="contanier">
+    <div class="box">
+        <h1>Article1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, explicabo!</p>
+    </div>
+    <div class="box">
+        <h1>Article1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, explicabo!</p>
+    </div>
+    <div class="box">
+        <h1>Article1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, explicabo!</p>
+    </div>
+    <div class="box">
+        <h1>Article1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, explicabo!</p>
+    </div>
+</div>
+    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, qui.</p> -->
+</body>
+</html>
